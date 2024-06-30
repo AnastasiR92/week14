@@ -1,0 +1,48 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/assets/pictures/ineskopu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: rgb(239, 246, 252, 0.5);
+}
+
+div {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-style: none;
+}
+
+#title-head {
+    padding-top: 5px;
+    margin: 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+}
+
+#movies-title {
+    text-align: center;
+}
+
+.producers-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#producers-names{
+    padding-top: 0.5rem;
+    padding-left: 12rem;
+}
+
+#movies-url{
+    padding-top: 2rem;
+    padding-left: 19rem;
+}
+
+#movies-names{
+    text-align: center;
+}
